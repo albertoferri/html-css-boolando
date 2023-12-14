@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f96d18;
+    height: 50px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    height: 50px;
+    color: white;
+    gap: 15px;
+}
+
+nav #logo{
+    height: 50px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+    height: 50px;
+    color: white;
+}

@@ -143,6 +143,10 @@ section{
     height: 45px;
 }
 
+.favorite:hover{
+    color: red;
+}
+
 /* fine section */
 
 /* footer */

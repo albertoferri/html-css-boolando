@@ -54,6 +54,7 @@ section{
     justify-content: space-around;
     max-width: 1200px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .card img{
@@ -128,3 +129,43 @@ section{
     bottom: 115px;
     left: 0;
 }
+
+.card .favorite{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 65px;
+    right: 0px; 
+    background-color: white;
+    font-size: 30px;
+    width: 45px;
+    height: 45px;
+}
+
+/* fine section */
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    color: white;
+    padding: 20px 40px;
+}
+
+.foot-cat{
+    padding-left: 0;
+    font-size: 10px;
+    gap: 10px;
+}
+
+.referral .fa{
+    height: 20px;
+    padding-top: 10px;
+    margin-right: 15px;
+}
+
+
+/* fine footer */

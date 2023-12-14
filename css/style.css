@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* reset */
+
+body{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* navbar */
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f96d18;
+    height: 50px;
+}
+
+.category{
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+nav #logo{
+    height: 50px;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    color: white;
+}

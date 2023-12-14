@@ -6,7 +6,7 @@
 /* reset */
 
 body{
-    width: 80%;
+    width: 1200px;
     margin-left: auto;
     margin-right: auto;
     font-family: 'Roboto', sans-serif;
@@ -15,9 +15,12 @@ body{
 /* navbar */
 nav{
     display: flex;
+    position: fixed;
     justify-content: space-between;
     background-color: #f96d18;
     height: 50px;
+    width: 100%;
+
 }
 
 .category{
@@ -39,4 +42,60 @@ nav #logo{
     padding-right: 15px;
     height: 50px;
     color: white;
+    gap: 4px;
+}
+/* fine navbar */
+
+/* inizio section */
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1200px;
+    padding-top: 50px;
+}
+
+.card img{
+    height: auto;
+    width: 320px;
+    margin-top: 50px;
+}
+
+.img-first{
+    display: block;
+}
+
+.img-hov{
+    display: none;
+}
+
+.img-change:hover .img-first{
+    display: none;
+}
+
+.img-change:hover .img-hov{
+    display: block;
+}
+
+.card:hover{
+    
+}
+
+/* .favorite .fa{
+    position: absolute;
+    top: 10px;
+    border: 1px black solid;
+    height: 45px;
+} */
+
+.img-title{
+    font-weight: bold;
+}
+
+.price-saled{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
 }

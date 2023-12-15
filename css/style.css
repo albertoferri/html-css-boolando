@@ -6,24 +6,31 @@
 /* reset */
 
 body{
-    width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
     font-family: 'Roboto', sans-serif;
 }
 
 /* navbar */
 
-/* navbar non visualizzata correttamente in full screen 
-ma in inspector è giusta */
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    width: 100%;
+    background-color: #f96d18;
+}
+
 nav{
     display: flex;
-    position: fixed;
     justify-content: space-between;
-    background-color: #f96d18;
-    height: 50px;
     width: 100%;
-    z-index: 2;
+    height: 50px;
 }
 
 .category{
@@ -33,6 +40,20 @@ nav{
     height: 50px;
     color: white;
     gap: 15px;
+}
+.category a{
+    text-decoration: none;
+    color: white;
+}
+
+.category a:hover{
+    transform: scale(1.2em);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+nav .icons:hover{
+    font-size: 28px;
 }
 
 nav #logo{
@@ -48,6 +69,9 @@ nav #logo{
     gap: 4px;
 }
 /* fine navbar */
+
+
+
 
 /* inizio section */
 section{
@@ -65,6 +89,8 @@ section{
     margin-top: 50px;
 }
 
+
+/* cambio immagine con :hover */
 .img-first{
     display: block;
 }
@@ -75,11 +101,13 @@ section{
 
 .img-change:hover .img-first{
     display: none;
+    
 }
 
 .img-change:hover .img-hov{
     display: block;
 }
+/* fine cambio immagine con :hover */
 
 .img-title{
     font-weight: bold;
@@ -143,6 +171,7 @@ section{
     font-size: 30px;
     width: 45px;
     height: 45px;
+    transition: .3s;
 }
 
 .favorite:hover{
